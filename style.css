@@ -1,0 +1,42 @@
+#idCard{
+    background: #3cd5c7;
+    border: 10px solid black;
+    width: 380px;
+    height: 200px;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+}
+body{
+    background-color: #19aec8;
+}
+#idForm{
+    text-align: center;
+}
+input{
+    margin-bottom: 10px;
+}
+h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    margin-bottom: 85px;
+}
+i{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2em;
+}
+#bottomId{
+    position: relative;
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+}
+h2{
+    margin-left: 120px;
+    margin-bottom: 35px;
+}

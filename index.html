@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID card generator!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    <body>
+    <div id="idForm">
+        <h1>ID Card</h1>
+
+        First Name: <br><input type="text" id="firstName" placeholder="first name" ><br>
+
+        Last Name: <br><input type="text" id="lastName" placeholder="last name"><br>
+
+        Age: <br><input type="number" id="age" placeholder="age"><br>
+
+        Phone Number: <br><input type="text" id="userPhone" placeholder = "phone number"><br>
+
+        Address: <br><input type="text" id="address" placeholder="address"><br>
+
+        <button onclick="idCard()" > Generate ID!</button>
+
+    </div>
+        <div id="idCard">
+
+            <h2 id="idFullName"></h2>
+            <div class="bottomId">
+
+            <p id="idAge"></p>
+            <p id="idPhone"></p>
+            <p id="idAddress"></p>
+
+            </div>
+            <i class="fa fa-user" aria-hidden="true"></i>
+
+        </div>
+
+        <script src = "app.js"></script>
+
+    </body>
+</html>
